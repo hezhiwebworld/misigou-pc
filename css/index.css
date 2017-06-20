@@ -1,0 +1,122 @@
+@charset "utf-8";
+/*index*/
+#container{background: #F9F9F9;overflow: hidden;padding-bottom: 20px}
+.slider{background: #fff;overflow: hidden;margin-bottom: 10px;position: relative;}
+.sliderInner{height: 300px;}
+.sliderInner img{width: 100%}
+.slides_container {width:100%;  height:300px; }  
+.slides_container div {width:100%;  height:300px;  display:block;  }
+.pagination{display: block;position: absolute;bottom:5px;left:50%;width: 125px;margin-left: -62px;z-index:9998;}
+.pagination li{float: left;background: #fff;margin-right: 5px;border-radius: 50%;width:20px;height:20px;text-align: center;overflow: hidden;}
+.pagination li a{color:#CECECE;}
+.pagination li.current a{background: #FF647C;color:#fff;text-decoration: none;display: block;width: 100%;height: 100%}
+.pagination li.current a:hover{background: #FF647C;color:#fff;text-decoration: none;}
+.wrap{overflow: hidden;}
+.dayNew{width: 800px;}
+.newHeader{height: 50px;line-height: 50px;margin-bottom: 0px;}
+.newHeader h2{font-size:22px;color: #999999;}
+.newHeader h2 strong{color: #666666;}
+.newHeader h2 span{font-size: 13px;font-weight: normal;}
+.newItemList{width: 100%;}
+.itemEach{height:258px;background: #fff;margin-bottom: 15px;padding:3px;border:1px solid #ececec;overflow: hidden;}
+.itemEach a:hover{text-decoration: none;}
+.itemEachImg{width: 550px;height: 258px;overflow: hidden;}
+.itemEachInfo{width: 238px}
+.dayRemain{height: 60px;line-height: 60px;border-bottom: 1px dashed #ececec;padding-left: 15px;font-size: 15px;color: #999999}
+.itemDesc{padding:10px 15px;color: #999999;margin:10px 0;line-height: 1.5}
+.itemDesc h3.title{color: #666666;font-size: 15px;margin-bottom: 10px;} 
+.itemDesc div.desc{height:40px;line-height:20px;overflow: hidden;margin-bottom: 20px;}
+.itemDesc div.tag{line-height: 1.5;margin-bottom: 20px}
+.itemLink{display:block;width: 98%;text-align: center;border-radius: 2px;border:1px solid #FF647C;padding:5px 0;color:#FF647C;}
+.itemLink:hover{background: #FF647C;color:#fff;text-decoration: none;}
+.newFooter {text-align:center;line-height: 2.0;margin-bottom: 20px}
+.sideNew{width: 260px;}
+.betterSelect{border:1px solid #cecece;margin-bottom: 20px;}
+.betterTitle{background: #F9F9F9;overflow: hidden;}
+.betterTitle li{width: 50%;text-align: center;line-height: 40px;height: 40px;float: left;cursor: pointer;font-size: 15px;}
+.betterTitle li span{display: inline-block;height: 96%}
+.betterTitle li span:hover{border-bottom: 2px solid #FF647C}
+.betterTitle li span.hover{border-bottom: 2px solid #FF647C}
+.betterBlock{width: 100%;background: #fff;overflow: hidden;}
+.betterBlock li{width: 50%;float: left;text-align: center;height: 50px;overflow: hidden;box-sizing:border-box;-moz-box-sizing:border-box; /* Firefox */-webkit-box-sizing:border-box; /* Safari */}
+.betterBlock li.border-1{border-bottom: 1px dashed #ececec;border-right: 1px dashed #ececec;}
+.betterBlock li.border-2{border-bottom: 1px dashed #ececec;}
+.betterBlock li img{width: 60%;}
+.betterMore p{width: 100%;text-align: center;line-height: 40px;}
+.rankList h2{font-size: 18px;color: #666666}
+.rankTitle{border:1px solid #cecece;border-bottom: none;height:30px;}
+.rankTitle li{width: 25%;text-align: center;float: left;height: 30px;line-height: 30px;border-bottom:1px solid #cecece;border-right:1px solid #cecece;cursor:pointer;box-sizing:border-box;-moz-box-sizing:border-box; /* Firefox */-webkit-box-sizing:border-box; /* Safari */}
+.rankTitle li.hover{background: #fff;border-bottom: none}
+.rankBlock{border:1px solid #cecece;border-top: none;overflow: hidden;}
+.rankBlock li{background: #fff;border-bottom: 1px solid #cecece;height: 90px;overflow: hidden;}
+.blockImg{margin-left: 10px;height: 70px;width: 70px;overflow: hidden;margin-top: 10px;}
+.blockImg img{width: 100%;}
+.blockInfo{margin-right: 10px;width: 160px;overflow: hidden;}
+.blockInfo h3{margin-top:10px;height: 40px;line-height: 20px;font-size: 13px;font-weight: normal;overflow: hidden;}
+.blockInfo p.price{line-height: 2.0}
+.newPrice{font-size: 15px;color: #FF647C;margin-right: 10px;font-weight: bold;}
+.oldPrice{text-decoration: line-through;}
+/*category*/
+.position{height: 30px;line-height: 30px;padding:15px 0 10px 0;}
+.brand{border:1px solid #cecece;background: #fff;margin-bottom: 20px;overflow: hidden;}
+.brandTit{width: 60px;height:50px;line-height:50px;text-align: center;color: #999999;}
+.brandName{width: 900px;height: 50px;line-height: 50px;overflow: hidden;}
+.brandName li{float: left;margin-right: 20px;}
+.brandMore{width: 100px;line-height: 50px;height: 50px;overflow: hidden;text-align: center;color:#999999;}
+.brandMore span{display: block;}
+.brandMoreBtn{cursor: pointer;}
+/*detail*/
+.position{color:#555555;}
+.resume{height: 560px;margin-bottom:20px;background:#ffffff;box-shadow: 5px 0 8px -2px #ccc}
+
+.shopResume{width: 188px;background: #F4F3F0;border-left:1px solid #EBEBEB;height: 560px}
+.shopResume h2{height: 40px;line-height: 40px;text-indent: 15px;font-size: 18px;font-weight:normal;background: #ECECEC;color:#656565;}
+.shopResumeIn{padding:20px;border-bottom: 1px dashed #DDDDDD}
+.shopResumeIn p.mark{margin-bottom: 10px;height: 30px;}
+.shopResumeIn p.mark span{display: inline-block;width:20px;height:20px;margin-right: 5px;margin-top: 5px;cursor:pointer;}
+.shopResumeIn span.mark-1{background: url(../img/mark.png) no-repeat 0 center;}
+.shopResumeIn span.mark-2{background: url(../img/mark.png) no-repeat -28px center;}
+.shopResumeIn p.desc{color:#676767;margin-top: 5px}
+.shopResumeIn h3{font-weight: normal;color:#999999;line-height: 2.0}
+.shopResumeIn h3 strong{color: #333333}
+
+.shopResumeMark{padding:20px;line-height: 2.5;color: #999999}
+.shopResumeMark strong{color:#FF5482;}
+.shopList{background: #ffffff;margin-bottom: 20px;height: 262px;overflow: hidden;}
+.shopInfo{width: 188px;border-left:1px solid #EBEBEB;height:262px;}
+.relative{width:890px;min-height: 300px;}
+.relativeNav{height: 40px;line-height: 40px;background: #F8F8F8;border: 1px solid #E8E6E4; border-top: 1px solid #fff;border-bottom: none;}
+.relativeNav li{float: left;border-right: 1px solid #DDDDDD;border-left: 1px solid #fff;}
+.relativeNav li a{padding:0 20px;display: block;height:100%;font-size: 14px;}
+.relativeNav li a:hover{text-decoration: none;background: #ffffff;}
+.relativeNav li a.hover{text-decoration: none;background: #ffffff;}
+.infoBlock,.buyerBlock,.loveBlock,.quesBlock,.misiBlock{margin-bottom: 20px;}
+.relative div.block{background: #ffffff;border: 1px solid #E8E6E4;min-height: 200px;border-radius:0 0 3px 3px}
+.relative h2{color:#FF4477;font-size: 18px;line-height: 2.0;margin-bottom: 5px;}
+.relative h2 i{display: inline-block;width: 20px;height: 20px;background: #FF4477;margin-right: 5px;vertical-align: middle;}
+
+.side{width:170px;background:#fff}
+.sideTit h2{height: 40px;line-height: 40px;font-size: 18px;text-indent: 15px;font-weight: normal;background: #ECECEC}
+.sideList{width:150px;margin:0 auto;}
+.sideEach{border-bottom: 1px dashed #EBEBEB;overflow: hidden;padding: 10px 0}
+.sideEach img{width: 100%;}
+.sideEach h3{font-weight: normal;line-height: 2.5;}
+
+/*home*/
+.homeNav{width: 200px;height:655px;border:1px solid #E4E4E4;background: #fff;margin: 20px 0;}
+.homeNav h2{height: 40px;line-height: 40px;background: #EEEEEE;font-size: 18px;font-weight: normal;text-indent: 18px;}
+.homeNav li{height: 35px;line-height: 35px;background: #FFFFFF;font-size: 13px;text-indent: 30px;margin:5px 0;}
+.homeNav li a{display: block;width: 98%;height: 26px;line-height: 26px;margin-top: 4.5px}
+.homeNav li a:hover{text-decoration: none;border-left:3px solid #FF647C;font-weight: bold;}
+.homeNav li a.hover{border-left:3px solid #FF647C;font-weight: bold;color:#FF647C;}
+.homeBlock{width:836px;height:635px;border:1px solid #E4E4E4;border-left: none;background: #fff;margin-top: 20px;padding:10px 20px;}
+.homeBlock h2{font-size: 16px;font-weight: normal;border-bottom: 2px solid #FF5482;line-height: 30px;}
+.homeForyou{clear: both;height: 205px;margin: 20px 0;border:1px solid #E4E4E4;background: #fff}
+.homeForyou h2{height: 40px;line-height: 40px;background: #F9F9F9;text-indent:20px;color:#FF647C;font-size: 16px;}
+.homeForyou h2 span{color: #BBBBBB;margin-right: 15px;cursor: pointer;}
+.homeForyou li{width:178.5px;text-align:center;overflow: hidden;float: left;border-right:1px solid #E4E4E4;margin:5px 0;}
+.homeForEach{padding:0 10px;}
+.homeForEach a{display: block;width: 100%;height: 100%}
+.homeForEach a:hover{text-decoration: none}
+.homeForEach img{width: 60%}
+.homeForEach h3{font-weight: normal;overflow: hidden;white-space: nowrap;line-height: 2.0;margin-top: 10px;}

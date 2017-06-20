@@ -1,0 +1,45 @@
+/*cates*/
+#container{background: #F9F9F9;padding-top: 15px}
+.catesShow{background: #fff;padding: 5px;border:1px solid #EEEEEE;margin-bottom:15px;overflow: hidden;height: 300px;}
+.catesImg{width: 640px}
+.catesInfo{width:410px;}
+.catesInfoHead{height: 60px;line-height: 60px;border-bottom: 1px dashed #cecece;margin-bottom: 10px;}
+.catesLogo{width:120px;height: 60px;overflow: hidden;text-align: center;}
+.catesLogo img{height: 100%}
+.catesDay{width: 250px}
+.catesDay strong{font-size: 15px}
+.catesInfoBody h2{line-height: 50px;font-size: 20px;font-weight: normal;}
+.catesInfoBody h2 span.discount{color:#FF647C;font-size: 16px}
+.catesInfoBody h2 strong{font-size: 20px}
+.catesInfoBody p.tag{color: #999999;margin-bottom: 15px;}
+.catesInfoBody div.desc{color: #999999;line-height: 1.8;height: 40px;overflow: hidden;margin-bottom: 15px}
+.catesInfoFoot a{border:1px solid #999999;padding: 3px 10px;border-radius:5px;float: right;margin-right: 5px;}
+.catesInfoFoot a:hover{border:1px solid #FF647C;text-decoration: none;}
+.catesClass{background: #fff;border:1px solid #EEEEEE;margin-bottom: 15px;padding:10px;overflow: hidden;}
+.catesClassCate{width: 100%;overflow:hidden;border-bottom: 1px dashed #EEEEEE;line-height: 2.5;padding-bottom:10px;margin-bottom: 10px;}
+.catesClassCate h2{width: 40px;display:inline-block;color:#666666;font-weight: normal;float:left;margin-right: 20px}
+.catesClassLink{display:inline-block;width:980px;clear: right;}
+.catesClassLink li{float: left;margin-right: 20px;}
+.catesClassLink li.hover a{color:#FF647C;}
+.catesClassTool{padding:10px 0;}
+.catesClassTool h2{width: 40px;display:inline-block;color:#666666;font-weight: normal;float:left;margin-right: 20px}
+.catesClassSort{display:inline-block;width:980px;clear: right;}
+.catesClassSort span{margin-right: 10px;border:1px solid #cecece;padding:2px 10px;cursor:pointer;}
+.catesClassSort span:hover{color:#FF647C;border:1px solid #FF647C;}
+.catesClassSort span.hover{background: #FF647C;border:1px solid #FF647C;color:#fff;}
+.catesList{width: 1100px;overflow: hidden;}
+.catesEach{width: 255px;float: left;margin-right: 20px;border:1px solid #EEEEEE;background: #fff;height:328px;padding:10px;overflow: hidden;margin-bottom: 20px;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;}
+.catesEach:hover{border: 1px solid #FF647C}
+.catesEach a{display: block;;width: 100%;height:100%;color: #666666}
+.catesEach a:hover{color:#000000;text-decoration: none;}
+.catesEachImg{width: 230px;height: 230px;overflow: hidden;}
+.catesEachImg img{width: 100%}
+.catesEachInfo h2{font-weight: normal;height: 36px;overflow: hidden;margin: 5px 0;}
+.catesEachInfo span.newPrice{font-size: 18px;color:#FF647C;margin-right: 5px;}
+.catesEachInfo span.newPrice strong{font-size: 24px}
+.catesEachInfo span.discount{float: right;line-height: 40px;}
+.catesEachInfo span.oldPrice{font-size: 14px;text-decoration: line-through;}
+
+/*search*/
+.catesClassSort span.searchKey{font-weight: bold;border:none;padding:2px 5px;margin-right: 0}
+.catesClassSort span.searchNum{border:none;padding:2px 5px;color:#FF4965;margin-right: 0}

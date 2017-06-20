@@ -1,0 +1,35 @@
+@charset "utf-8";
+#container{background: #F9F9F9;overflow: hidden;}
+.wrap{padding:85px 0;margin-bottom: 20px;overflow: hidden;}
+/*regis*/
+.loginImg,.reginsImg{width:500px;margin-right: 20px;}
+.loginImg img,.reginsImg img{width:100%;}
+.regisBox,.loginBox{width: 400px;border:1px solid #eeeeee;border-top:2px solid #FF4965;overflow: hidden;min-height: 320px;margin-right: 20px}
+.regisBox div.inner{width:320px;margin:0 auto;margin-top: 30px;}
+.regisBox h2{font-size: 14px;margin-bottom: 20px;}
+.regisBox  a{color: #FF4965}
+.regisBox div.block{height: 30px;margin-bottom: 15px;width: 100%;line-height: 30px;}
+.regisBox input{border:none;}
+.telBlock,.pwdBlock,.pwdedBlock,.userBlock{border:1px solid #eeeeee;border-radius: 5px;}
+.telBlock span,.userBlock span,.pwdBlock span,.pwdedBlock span{display: inline-block;width: 30px;height: 30px;background: #eeeeee;}
+.userBlock input,.pwdBlock input,.pwdedBlock input{display:inline-block;width: 285px;line-height: 1.2;vertical-align: 70%;height: 100%}
+.telBlock  input{display:inline-block;width: 160px;line-height: 1.2;vertical-align: 70%;height: 100%;}
+.telBlock a{position:absolute;top:-1px;right:-110px;display:inline-block;height:30px;border:1px solid #FF4965;color:#FF4965;width:100px;text-align: center;border-radius: 5px}
+.telBlock a:hover{background: #FF4965;text-decoration: none;color:#fff;}
+#telBlock{width: 210px;position: relative;}
+.confirmBlock a{color: #FF4965;}
+.subBlock input.sub{background: #FF4965;border: 1px solid #FF4965;color: #fff;border-radius: 5px;display: block;height: 100%;width: 100%;cursor:pointer;}
+.other span{display: inline-block;margin-right: 5px;width: 28px;height: 28px;vertical-align: middle;cursor:pointer;}
+.other span.qqLogin{background: url(../img/otherLogin.png) no-repeat}
+.other span.taobaoLogin{background: url(../img/otherLogin.png) no-repeat -58px 0}
+.other span.weixinLogin{background: url(../img/otherLogin.png) no-repeat -118px 0}
+.other span.qqLogin:hover{background: url(../img/otherLogin.png) no-repeat -29px 0}
+.other span.taobaoLogin:hover{background: url(../img/otherLogin.png) no-repeat -88px 0}
+.other span.weixinLogin:hover{background: url(../img/otherLogin.png) no-repeat -148px 0}
+/*login*/
+.loginBox div.inner{width:320px;margin:0 auto;margin-top: 30px;}
+.loginBox h2{font-size: 14px;margin-bottom: 20px;}
+.loginBox  a{color: #FF4965}
+.loginBox div.block{height: 30px;margin-bottom: 15px;width: 100%;line-height: 30px;}
+.loginBox input{border:none;}
+
